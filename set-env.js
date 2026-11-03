@@ -1,6 +1,13 @@
 const fs = require('fs');
+const path = require('path');
 
-const targetPath = './src/environments/environment.ts';
+const dirPath = './src/environments';
+const targetPath = path.join(dirPath, 'environment.ts');
+
+// Cipta folder src/environments secara automatik jika tiada
+if (!fs.existsSync(dirPath)) {
+  fs.mkdirSync(dirPath, { recursive: true });
+}
 
 const envConfigFile = `export const environment = {
   production: true,
