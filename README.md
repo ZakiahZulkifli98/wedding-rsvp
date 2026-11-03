@@ -1,59 +1,34 @@
-# WeddingRsvp
+# 💍 Digital Wedding Invitation & RSVP Web App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.5.
+An interactive digital wedding invitation web application built with **Angular** and integrated with **Supabase** for real-time RSVP management and guest wishes.
 
-## Development server
+---
 
-To start a local development server, run:
+## ✨ Key Features
 
-```bash
-ng serve
-```
+- ✉️ **Interactive Envelope Screen** – Elegant envelope opening animation before revealing the main invitation card.
+- ⏳ **Live Countdown Timer** – Counts down the days, hours, minutes, and seconds until the event.
+- 📝 **RSVP Confirmation Form** – Allows guests to confirm attendance (Attending / Not Attending) and state their guest count.
+- 💌 **Guest Wishes & Prayers Board** – Live feed displaying heartfelt messages and blessings left by guests.
+- 📊 **Attendance Statistics** – Displays a summary count of total attending and non-attending guests.
+- 🗺️ **Navigation Links (Google Maps & Waze)** – Quick links for guests to navigate directly to the venue.
+- 📅 **Google Calendar Integration** – One-click button for guests to save the event date directly to their calendar.
+- 🎁 **DuitNow QR Gift Option** – Easy QR code scanning for guests who wish to send wedding gifts/contributions.
+- 🎵 **Floating Background Music Control** – Toggleable background music player (play/pause).
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Framework:** [Angular](https://angular.dev/) (v19+)
+- **Database & Backend:** [Supabase](https://supabase.com/) (Real-time RSVP & Wishes storage)
+- **Styling:** Custom Responsive CSS (Mobile-first design)
+- **Fonts:** Google Fonts (_Cormorant Garamond, Passions Conflict, Montserrat, Lato_)
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🚀 Local Development Guide
 
-```bash
-ng generate --help
-```
+### 1. Prerequisites
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Ensure you have [Node.js](https://nodejs.org/) and [Angular CLI](https://angular.dev/tools/cli) installed on your system.
